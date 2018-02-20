@@ -1,12 +1,12 @@
 (function($) {
-  "use strict"; // Start of use strict
+  'use strict'; // Start of use strict
 
   // Vide - Video Background Settings
   $('body').vide({
-    mp4: "mp4/bg.mp4",
-    poster: "img/bg-mobile-fallback.jpg"
+    mp4: 'mp4/Down_by_the_River.mp4',
+    poster: 'img/Down-by-the-River.jpg'
   }, {
     posterType: 'jpg'
   });
 
-})(jQuery); // End of use strict
+}); // End of use strict
