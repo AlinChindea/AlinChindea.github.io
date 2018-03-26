@@ -8,6 +8,83 @@ body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 
+hr {
+  max-width: 50px;
+  border-width: 3px;
+  border-color: #ff5722;
+}
+
+hr.light {
+  border-color: #fff;
+}
+
+
+a {
+  color: #ff5722;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+a:hover {
+  color: #ff5722;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.bg-primary {
+  background-color: #ff5722 !important;
+}
+
+.bg-dark {
+  background-color: #212529 !important;
+}
+
+.text-faded {
+  color: #fff;
+}
+
+section {
+  padding: 5rem 0;
+}
+
+.section-heading {
+  margin-top: 0;
+}
+
+h2.code {
+  font-size: 1rem;
+}
+
+::-moz-selection {
+  color: #fff;
+  background: #212529;
+  text-shadow: none;
+}
+
+::selection {
+  color: #fff;
+  background: #212529;
+  text-shadow: none;
+}
+
+img::selection {
+  color: #fff;
+  background: transparent;
+}
+
+img::-moz-selection {
+  color: #fff;
+  background: transparent;
+}
+
 
 
 #mainNav {
@@ -44,7 +121,7 @@ img.logo {
   }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #f05f40;
+  color: #ff5722;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
@@ -111,3 +188,50 @@ img.logo {
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
     color: #ff5722;
   }
+
+  header.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
+  background-image: url("https://goo.gl/CMqGJt");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header.masthead hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+header.masthead h1 {
+  font-size: 2rem;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+header.masthead p {
+  font-weight: 300;
+}
+
+header.masthead span.greeting {
+  line-height: 2em;
+  font-size: 21px;
+}
+
+
+@media (min-width: 768px) {
+  header.masthead p {
+    font-size: 1.15rem;
+  }
+}
+
+@media (min-width: 992px) {
+  header.masthead {
+    height: 100vh;
+    min-height: 650px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
