@@ -415,6 +415,42 @@ img.logo {
     }
   }
 
+  #contact {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons {
+  position: relative;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.social-icons ul {
+  margin-top: 2rem;
+  width: 100%;
+  text-align: center;
+  flex-basis: 60%;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.social-icons ul > li {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.social-icons ul > li > a {
+  display: block;
+  color: white;
+  background-color: rgba(0, 215, 178, 0.7);
+  border-radius: 100%;
+  font-size: 2rem;
+  line-height: 4rem;
+  height: 4rem;
+  width: 4rem;
+}
+
   .text-primary {
     color: #ff5722 !important;
   }
