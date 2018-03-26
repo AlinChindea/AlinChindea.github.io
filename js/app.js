@@ -63,6 +63,11 @@ $(() => {
     scale: 0.3,
     distance: '0px'
   }, 200);
+  sr.reveal('.sr-interest', {
+    duration: 600,
+    scale: 0.3,
+    distance: '0px'
+  }, 200);
   sr.reveal('.sr-skills', {
     duration: 600,
     scale: 0.3,
