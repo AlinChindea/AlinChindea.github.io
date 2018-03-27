@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Merriweather', sans-serif;
 }
 
 hr {
@@ -350,7 +350,7 @@ img.logo {
     width: 30rem;
   }
 
-  .grow {
+  /* .grow {
 transition: .2s ease-in-out;
 overflow: hidden;
 }
@@ -360,7 +360,7 @@ overflow: hidden;
 -ms-transform: scale(1.1);
 transform: scale(1.1);
 transition: .2s ease-in-out;
-}
+} */
 
   #contact {
   display: flex;
@@ -462,6 +462,7 @@ transition: .2s ease-in-out;
 .carousel-item {
   height: 32rem;
   background-color: #777;
+  font-weight: 700;
 }
 .carousel-item > img {
   position: absolute;
