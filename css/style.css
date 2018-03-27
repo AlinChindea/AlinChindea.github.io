@@ -427,3 +427,45 @@ transition: .2s ease-in-out;
   .btn-primary:active, .btn-primary:focus {
     box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
   }
+
+  .carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.first-slide, .second-slide, .third-slide, .fourth-slide {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.first-slide {
+  background-image: url("../img/tractor.jpg");
+}
+.second-slide {
+  background-image: url("../img/cocktail.jpg");
+}
+
+.third-slide{
+  background-image: url("../img/biker.jpg");
+}
+
+.fourth-slide {
+  background-image: url("../img/whale-splash.jpg");
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+  background-color: #777;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 32rem;
+}
