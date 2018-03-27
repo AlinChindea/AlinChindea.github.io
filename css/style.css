@@ -100,7 +100,7 @@ img::-moz-selection {
   display: flex;
   align-items: center;
   top: 10px;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 img.logo {
@@ -346,10 +346,6 @@ img.logo {
     margin-top: 10px;
   }
 
-  div.card.mx-auto {
-    width: 30rem;
-  }
-
   /* .grow {
 transition: .2s ease-in-out;
 overflow: hidden;
@@ -431,7 +427,7 @@ transition: .2s ease-in-out;
   .carousel {
   margin-bottom: 4rem;
 }
-/* Since positioning the image, we need to help out the caption */
+
 .carousel-caption {
   bottom: 3rem;
   z-index: 10;
@@ -458,11 +454,11 @@ transition: .2s ease-in-out;
   background-image: url("../img/whale-splash.jpg");
 }
 
-/* Declare heights because of positioning of img element */
 .carousel-item {
   height: 32rem;
   background-color: #777;
   font-weight: 700;
+  font-size: 1.2rem;
 }
 .carousel-item > img {
   position: absolute;
