@@ -454,6 +454,10 @@ transition: .2s ease-in-out;
   background-image: url("../img/whale-splash.jpg");
 }
 
+.carousel {
+  margin-bottom: 0;
+}
+
 .carousel-item {
   height: 32rem;
   background-color: #777;
